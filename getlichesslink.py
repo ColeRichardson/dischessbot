@@ -7,7 +7,7 @@ chrome_options.add_argument("--headless")
 
 url = "https://lichess.org/"
 
-webdriver = #path to webdriver
+webdriver = # path to webdriver
 #"C:/Users/ColeR/Documents/chromedriver.exe"
 driver = Chrome(options=chrome_options, executable_path=webdriver)
 driver.get(url)
